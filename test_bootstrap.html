@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Testing boostrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="./css/bootstrap-theme.min.css" rel="stylesheet">
+
+    <link href="./css/prism.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        .
+    </div>
+
+
+    <!--START TESTING PANEL-->
+    <div class="row">
+        <div class="panel panel-default">
+            <div class="panel-heading">Testing panel</div>
+            <div class="panel-body">
+                Here can be some text with <code> code element </code> from bootstrap.
+<pre class="line-numbers">
+<code class="language-php">
+    const MY_CONSTANT;
+
+    $a = ['a' => 1];
+    $b = $a;
+    //This is just for testing.
+    if ($a === $b) {
+        echo 'Indentical!';
+    }
+
+    class TestClass extends TestAbstractClass implements TestInterface
+    {
+        public function testFunction($var1, &$var2)
+        {
+            return $var1 . $var2;
+        }
+    }
+</code>
+</pre>
+
+            </div>
+        </div>
+    </div>
+    <!--END TESTING PANEL-->
+
+
+
+
+    <div class="row">
+        <div class="panel panel-default">
+            <div class="panel-heading">Panel heading without title</div>
+            <div class="panel-body">
+                Panel content
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy;Just testing</p>
+    </footer>
+
+</div> <!-- /container -->
+
+
+
+
+<script src="./js/prism.js"></script>
+<script src="./js/jquery-1.12.1.min.js"></script>
+<!--<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>-->
+<script src="./js/bootstrap.min.js"></script>
+</body>
+</html>
